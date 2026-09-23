@@ -11,19 +11,24 @@
 # =========================
 # ETAPA 1 - INICIO
 # =========================
+nombre = input("¿cual es su nombre?")
+saldo = input ("¿Cual es su saldo actual?")
+productos = ["agua", "alfajor", "tostado"]
+precios = ["$700", "$900","$2200"]
 
-# Crear las variables necesarias.
-# Crear las listas de productos y precios.
-# Pedir los datos del cliente.
+print("Bienvenid: ",nombre, "saldo: ",saldo)
+
 
 
 # =========================
 # ETAPA 2 - COMPRAS
 # =========================
 
-# Mostrar el menú y procesar la opción seleccionada.
-# Utilizar las listas para obtener producto y precio.
-
+print("1. Agua       - $700")
+print("2. Alfajor    - $900")
+print("3. Tostado    - $2200")
+print("4. Consultar pedido")
+print("5. Finalizar compra")
 
 # =========================
 # ETAPA 3 - CICLO PRINCIPAL
